@@ -1,0 +1,210 @@
+/* Carousel Um */
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 20%;
+    height: 500px;
+    max-width: 100%;
+    
+}
+
+@media only screen and (max-width: 320px){
+    .imagem-carrossel-um{
+        object-fit: cover;
+        object-position: 35% 20%;
+        height: 600px;
+        max-width: 100%;
+            }    
+        } 
+    
+@media only screen and (max-width:375px){
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 35% 20%;
+    height: 300px;
+    max-width: 100%;
+    }        
+        }        
+        
+    
+    @media only screen and (max-width:576px){
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 35% 20%;
+    height: 300px;
+    max-width: 100%;
+        }        
+            }
+    
+        @media only screen and (max-width:768px){
+        .imagem-carrossel-um{
+            object-fit: cover;
+            object-position: 35% 20%;
+            }        
+                }
+            
+    /* Responsividade carousel 2 */
+     /* Carousel Dois */
+
+     .imagem-carrossel-dois{
+        object-fit: cover;
+        object-position: 0 35%;
+        height: 500px;
+        max-width: 100%;
+    }
+
+
+
+
+
+    @media only screen and (max-width: 320px){
+        .imagem-carrossel-dois{
+            object-fit: cover;
+            object-position: 0 20%;
+            height: 300px;
+            max-width: 100%;
+            }    
+                }
+        
+        @media only screen and (max-width:375px){
+        .imagem-carrossel-dois{
+            object-fit: cover;
+            object-position: 35% 20%;
+            height: 300px;
+            max-width: 100%;
+        }        
+            }
+        
+        
+        @media only screen and (max-width:576px){
+        .imagem-carrossel-dois{
+            object-fit: cover;
+            object-position: 35% 20%;
+            height: 300px;
+            max-width: 100%;
+            }        
+                }
+        
+@media only screen and (max-width:768px){
+.imagem-carrossel-dois{
+    object-fit: cover;
+    object-position: 35% 20%;
+            }        
+                }
+        
+        /* Responsividade carousel img 3 */
+
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 500px;
+    max-width: 100%;
+}
+
+        
+@media only screen and (max-width: 320px){
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 35% 20%;
+    height: 300px;
+    max-width: 100%;
+            }    
+        }
+    
+@media only screen and (max-width:375px){
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 35% 20%;
+    height: 300px;
+    max-width: 100%;
+    }        
+        }
+    
+@media only screen and (max-width:576px){
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 35% 20%;
+    height: 300px;
+    max-width: 100%;
+            }        
+                }
+    
+@media only screen and (max-width:768px){
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 35% 20%;
+            }        
+                }
+    
+    
+
+/* Responsividade Title */
+
+@media only screen and (max-width: 320px) {
+.title{
+    margin-left: 1px;
+    margin-bottom: 10px;
+    }
+   }
+
+
+@media only screen and (max-width: 576px) {
+.title{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    }
+   }
+
+
+@media only screen and (max-width: 768px) {
+   .title{
+       margin-left: 5rem;
+       margin-bottom: 10px;
+   }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .title{
+        margin-bottom: 10px;
+    }
+   }
+
+   @media only screen and (max-width: 1024px) {
+    .title{
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+   }
+
+
+/* Responsividade da Logo */
+@media only screen and (max-width: 600px) {
+    .ladoesquerdo {
+      display: none;
+    }
+    .banner{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .ladoesquerdo {
+     display: none;
+
+    }
+    .banner{
+        display: flex;
+    }
+
+}
+    
+
+
+
+
+
+
+
+    
+
+
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="img/icon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/responsividade.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <title>Gravina</title>
+</head>
+
+<body class="body" style="background-color: black;">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+      <div class="container">
+        <img src="img/logoesquerdo.jpeg" alt="" class="ladoesquerdo">
+        <div class="navbar-header">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> QUEM SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> REDES SOCIAIS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> CONTATOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Foto3.jpeg" class="d-block w-100  imagem-carrossel-um" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h1 class="fonte-titulo"> Banda Gravina</h1> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Foto5.jpeg" class="d-block w-100  imagem-carrossel-dois" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- Caso queira colocar alguma legenda na imagem -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Capa3.jpeg" class=" d-block w-100  imagem-carrossel-tres" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- Caso queira colocar alguma legenda na imagem -->
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+
+
+  </header>
+
+  <!-- Alquimia do Rock -->
+
+  <section id="sobre-nos" class="container">
+    <h3 class="title pt-1 mr-5">Banda Gravina</h3>
+    <div class="row">
+      <img class="img-responsive col-sm-6" src="img/Capa2.jpeg" alt="">
+
+      <div class="panel-group pt-3 col-sm-6" id="paineis-sobre">
+        <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo"
+            data-parent="#paineis-sobre">
+            <h3 class="panel-title" id="titulo">Alquimia do Rock</h3><br>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo"
+              data-parent="#paineis-sobre">
+              <h5 class="panel-title">Alegria em colaborar para um mundo mais bonito</h5><br>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo"
+                data-parent="#paineis-sobre">
+                <p class="panel-title">A Banda estreou em Niterói em 2017 e
+                  vem conquistando as principais casas da cena musical da cidade.
+                </p>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- Integrantes -->
+  <section id="integrantes" class="container">
+    <h3 class="integrantes">Integrantes:</h3>
+
+    <!-- Rodrigo -->
+    <div class="row justify-content-center">
+      <article class="card card-largura p-0 m-3 col-12 col-md-4">
+        <img src="img/rodrigo.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title">- Rodrigo Souza</h5>
+          <p class="card-text">- Vocais & Composições</p>
+        </div>
+      </article>
+
+      <!-- Leandro -->
+      <article class="card card-largura p-0 m-4 col-12 col-md-4">
+        <img src="img/leandro.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title"> - Leandro Batista</h5>
+          <p class="card-text">- Baixo & Backvocals</p>
+
+        </div>
+      </article>
+
+      <!-- Neryno -->
+      <article class="card card-largura p-0 m-4 col-12 col-md-4">
+        <img src="img/neryno.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title">- Neryno Paulo</h5>
+          <p class="card-text">- Guitarra & Backvocals</p>
+
+        </div>
+      </article>
+
+      <!-- Bill -->
+      <article class="card card-largura p-0 m-4 col-12 col-md-4">
+        <img src="img/Foto1.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title">Gabriel </h5>
+          <p class="card-text">- Bateria & Percussões</p>
+
+        </div>
+      </article>
+
+      <!-- Banda -->
+      <article class="card card-largura p-0 m-4 col-12 col-md-4">
+        <img src="img/Foto1.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title" style="text-align: center;">Banda Gravina</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </article>
+
+      <!-- Banda -->
+      <article class="card card-largura p-0 m-4 col-12 col-md-4">
+        <img src="img/Foto1.jpeg" class="card-img-top card-img" alt="...">
+        <div class="card-body" style="background-color: black;">
+          <h5 class="card-title">Show </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+
+  <!--  -->
+
+  <section id="video" class=" container">
+
+    <h2 class="titulo-video pb-1">Nossos Vídeos</h2>
+    <div class="container">
+      <div class="row justify-content-center">
+        <article class="embed-responsive embed-responsive-16by9 pb-1 m-4 col-md-4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/j4b6lMmfyfg" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article class="embed-responsive embed-responsive-16by9 pb-3 col-md-4">
+          <video src="img/Divulgação 2 Hop.mp4" controls class="video2"></video>
+        </article>
+
+      </div>
+     
+     
+     
+     
+      <div class="embed-responsive embed-responsive-16by9 pb-3 col-sm-6">
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>

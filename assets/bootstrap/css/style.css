@@ -1,0 +1,117 @@
+/* Carousel Um */
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 20%;
+    height: 697px;
+    max-width: 100%;
+     }
+
+     /* Carousel Dois */
+
+.imagem-carrossel-dois{
+    object-fit: cover;
+    object-position: 0 35%;
+    height: 697px;
+    max-width: 100%;
+}
+
+  /* Carousel Tres*/
+
+.imagem-carrossel-tres{
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 697px;
+    max-width: 100%;
+}
+
+/* Fonte */
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+/* ------------------------------------------------ */
+
+/* Logo */
+.ladoesquerdo{
+    width: 8%;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+/* Responsividade da Logo */
+@media only screen and (max-width: 600px) {
+    .ladoesquerdo {
+      display: none;
+    }
+    .banner{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .ladoesquerdo {
+     display: none;
+
+    }
+    .banner{
+        display: flex;
+    }
+
+}
+
+/* Nav */
+
+.navbar{
+    padding-top: 5px;
+}
+
+.nav-brand{
+    background-color: black;
+}
+
+.nav-link{
+    margin-left: 10px;
+}
+
+/* Section */
+
+.title{
+    margin-bottom: 10px;
+    
+}
+
+
+.container{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    text-align: left;
+}
+
+.panel-title{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#titulo{
+    text-align: center;
+}
+
+
+
+   /* Sessão Integrantes */
+.card-largura{
+    max-width: 18rem;
+}
+
+   .integrantes{
+       margin-bottom: 30px;
+       text-align: center;
+   }
+
+   .card-img{
+       object-fit: cover;
+       height: 200px;
+   }
+
